@@ -1,0 +1,46 @@
+{
+    "editRequests": [
+        {
+            "id": 1,
+            "title": "People's Bank",
+            "description": "People's Bank requests you to change the address to the most recent address.",
+            "date": "2024-11-25T07:24:36.000+0000",
+            "isHighlighted": true
+        },
+        {
+            "id": 2,
+            "title": "Bank of Ceylon",
+            "description": "Requests you to change the name to the most recent profile name.",
+            "date": "2024-10-31T07:24:36.000+0000",
+            "isHighlighted": false
+        },
+        {
+            "id": 3,
+            "title": "Assetline Finance",
+            "description": "our team requests you to change the address to the most recent address.",
+            "date": "2024-10-30T07:24:36.000+0000",
+            "isHighlighted": true
+        },
+        {
+            "id": 4,
+            "title": "Commercial Bank PLC",
+            "description": "ABC Bank requests you to change the name to the most recent name.",
+            "date": "2024-09-15T07:24:36.000+0000",
+            "isHighlighted": false
+        },
+        {
+            "id": 5,
+            "title": "Sampath Bank",
+            "description": "ABC Bank requests you to change the address to the most recent address.",
+            "date": "2024-09-11T07:24:36.000+0000",
+            "isHighlighted": true
+        },
+        {
+            "id": 6,
+            "title": "Vallibel Finance",
+            "description": "We requests you to change the kyc profile name to the most recent name.",
+            "date": "2024-08-12T07:24:36.000+0000",
+            "isHighlighted": false
+        }
+    ]
+}

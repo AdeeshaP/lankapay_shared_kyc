@@ -1,0 +1,42 @@
+[
+    {
+        "name": "People's Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "Sampath Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "Commercial Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "National Savings Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "People's Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "Assetline Finance",
+        "type": "Institute"
+    },
+    {
+        "name": "LB Finance",
+        "type": "Institute"
+    },
+    {
+        "name": "DFCC Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "Nations trust Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "Commercial Credit & Finance",
+        "type": "Institute"
+    }
+]

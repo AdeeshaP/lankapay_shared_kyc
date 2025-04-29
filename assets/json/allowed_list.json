@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Bank of Ceylon",
+        "type": "Bank"
+    },
+    {
+        "name": "Dialog Finance",
+        "type": "Institute"
+    },
+    {
+        "name": "Senkadagala Finance",
+        "type": "Institute"
+    },
+    {
+        "name": "Seylan Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "National Development Bank",
+        "type": "Bank"
+    },
+    {
+        "name": "Vallibel Finance",
+        "type": "Institute"
+    },
+    {
+        "name": "Cargills Bank",
+        "type": "Bank"
+    }
+]
