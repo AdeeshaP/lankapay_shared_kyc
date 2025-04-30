@@ -6,6 +6,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:lankapay_shared_kyc/api-services/api_access.dart';
 import 'package:lankapay_shared_kyc/constants/constants.dart';
 import 'package:lankapay_shared_kyc/constants/responsive.dart';
+import 'package:lankapay_shared_kyc/screens/login-register/register_screen.dart';
 import 'package:lankapay_shared_kyc/utils/dialogs.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -574,13 +575,13 @@ class _LoginScreenState extends State<LoginScreen> {
                                 ),
                                 recognizer: TapGestureRecognizer()
                                   ..onTap = () {
-                                    // Navigator.push(
-                                    //   context,
-                                    //   MaterialPageRoute(
-                                    //     builder: (context) =>
-                                    //         RegsiterScreen(),
-                                    //   ),
-                                    // );
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            RegsiterScreen(),
+                                      ),
+                                    );
                                   },
                               ),
                             ],
