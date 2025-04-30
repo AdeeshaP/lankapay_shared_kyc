@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:lankapay_shared_kyc/constants/constants.dart';
 import 'package:lankapay_shared_kyc/constants/responsive.dart';
+import 'package:lankapay_shared_kyc/screens/login-register/face_enrollment.dart';
 import 'package:lankapay_shared_kyc/screens/login-register/login_screen.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -622,7 +623,18 @@ class _RegsiterScreenState extends State<RegsiterScreen> {
                                           ? Size(size.width, 55)
                                           : Size(size.width, 60),
                             ),
-                            onPressed: () {}),
+                            onPressed: () {
+                              Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (_) => FaceEnrollmentScreen(
+                                      fName: firstnameController.text,
+                                      lName: lastnameController.text,
+                                      email: emailController.text,
+                                      password: passwordController.text,
+                                    ),
+                                  ),
+                                );
+                            }),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 10.0),
                           child: Text(
