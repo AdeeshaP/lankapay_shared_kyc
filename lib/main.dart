@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:lankapay_shared_kyc/screens/login-register/landing_screen.dart';
+import 'package:lankapay_shared_kyc/screens/landing_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 List<CameraDescription> cameras = <CameraDescription>[];
